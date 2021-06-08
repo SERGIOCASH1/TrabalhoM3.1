@@ -1,15 +1,12 @@
 // Trabalho M3.1 - ALG II - Sérgio Venturi.cpp 
-//
 
 #include <iostream>
 #include <time.h>
-
 
 struct Jogador {
   std::string nome;
   int pontuacao;
 };
-
 
 void shellSort(Jogador* vetorJogador, int tamanhoVetor) {
     for (int gap = tamanhoVetor/2; gap > 0; gap /= 2){
@@ -50,7 +47,6 @@ void quickSort(Jogador* vetor, int esquerda, int direita) {
   if (index < direita)
     quickSort(vetor, index, direita);
 }
-
 
 void valoresAleatorios(Jogador* vetorJogador, int tamanhoVetor) {
   int tamanhoNome;
