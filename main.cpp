@@ -111,7 +111,7 @@ int main()
   srand(time(NULL));
 
   int opcao;
-  int tamanhoVetor = 250;
+  int tamanhoVetor = 1000;
   Jogador* vetorJogador = new Jogador[tamanhoVetor];
 
   valoresAleatorios(vetorJogador, tamanhoVetor);
